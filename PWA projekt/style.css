@@ -1,0 +1,176 @@
+/*-------------------------HEADER----------------------------*/
+
+.header_logo_frame{
+    float: left;
+}
+
+.header_logo{
+    height: 120px;
+    width: auto;
+}
+
+.header_links_frame{
+    height: auto; 
+    margin-left: 100px;
+}
+
+.stern_title{
+    font-size: 60px; 
+    font-weight: bolder; 
+    font-style: italic; 
+    color: black;
+}
+
+nav{
+    margin-top: 20px; 
+    font-weight: bolder;
+}
+
+nav a{
+    margin-right: 2.5%;
+    color: black;
+    text-decoration: none;
+}
+
+nav a.active {
+    color: red;
+    font-weight: bold;
+}
+  
+
+
+/*-------------------------FOOTER----------------------------*/
+
+footer{
+    text-align: center; 
+    margin-top: 100px; 
+    padding-bottom: 20px;
+}
+
+
+
+/*-------------------------INDEX.PHP----------------------------*/
+
+.clanak_box a{
+    text-decoration: none;
+}
+
+
+.clanak_box h5{
+    font-weight: bolder; 
+    color: black;
+}
+
+
+.clanak_box h5:hover {
+    color: red;
+}
+
+
+/*-------------------------CLANAK.HTML----------------------------*/
+
+.naslov_datum_blok{
+    display: flex;
+}
+
+.naslov_datum_blok h2{
+    width: 90%;
+}
+
+
+.naslov_datum_blok p{
+    width: 170px; 
+    color: grey; 
+    font-weight: bolder; 
+    text-align: right;
+}
+
+
+
+
+/*-------------------------FORMA - UNOS.PHP/UREDI VIJEST.PHP----------------------------*/
+.error_label{
+    color: red;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+form input[type="text"],
+form textarea,
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form input[type="checkbox"] {
+    margin-top: 10px;
+}
+
+form button {
+    margin-top: 15px;
+    padding: 10px;
+    background: #28a745;
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+
+#prikazi{
+    margin-left: 10px; 
+    margin-top: 2px;
+}
+
+.arhiviraj_row{
+    display: flex;
+
+}
+
+#arhiviraj{
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+
+/*------------------LOGIN/REGISTRACIJA---------------------*/
+
+.login_registracija_form {
+    width: 400px;     
+    margin: auto;
+}
+
+/*------------------AMDMINISTRATOR---------------------*/
+
+
+.gumb_edit{
+    background-color: yellow;
+    color: black;
+    border: 1px solid black;
+}
+
+.gumb_izbrisi{
+    background-color: red;
+    border: 1px solid black;
+}
+
